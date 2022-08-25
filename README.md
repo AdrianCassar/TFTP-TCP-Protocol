@@ -12,6 +12,28 @@ This protocol was developed following the [TFTP RFC](https://www.ietf.org/rfc/rf
 
 https://user-images.githubusercontent.com/78108584/186785140-d3bd9184-4fd1-46dc-b5ae-a3106491455c.mp4
 
+## Arguments
+
+Default IP address is 127.0.0.1 (loopback).
+
+Default port is 10000.
+
+### Server Arguments
+
+```
+java -jar TFTP-TCP-Server.jar
+
+java -jar TFTP-TCP-Server.jar ServerPort
+```
+
+### Client Arguments
+
+```
+java -jar TFTP-TCP-Client.jar
+
+java -jar TFTP-TCP-Client.jar ServerIP ServerPort
+```
+
 ## TFTP Operation Diagrams
 
 <div align="center">
